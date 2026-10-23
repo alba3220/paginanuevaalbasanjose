@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd%22">
+<html>
+<head>
+<title>mi segunda pagina web</title>
+<link href="icono.ico" rel="icon" /><!--para insertar un icono-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="animacion.css" rel="stylesheet" type="text/css">
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour(1);
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>ver menos
+<BR>
+</head>
+
+
+	
+<center><header>ESTAMOS INTENTANDO HACER UNA WEB ACEPTABLE PARA EL INSTI EN HTML</header></center>
+<center><div id="info"> MIAU </div></center>
+<div id="aviso"> NOS GUSTA TIC </div>
+<canvas id="pjsCanvas">h</canvas>
+<div id="html"><img id="html" src="etiqueta.png"> </div>
+
+<body>
+
+ <main>PARA DAR FORMATO A LOS TEXTOS UTILIZO ESTAS ETIQUETAS:
+ <br><b>"MIAU" EN NEGRITA</b>
+ <br><i>"MIAU" EN CURSIVA</i>
+ <br><u>VOY A PONER MI NOMBRE: ALBA SAN JOSÉ</u>
+ <br><MARK> "MIAU" SUBRAYADO CHULO </MARK>
+ <br>(vamos a corregir la alineacion del texto anterior con la mente)
+ 
+  <center><main>PARA DAR FORMATO A LOS TEXTOS UTILIZO ESTAS ETIQUETAS:</center>
+  <center><br><b>"MIAU" EN NEGRITA</b></center>
+  <center><br><i>"MIAU" EN CURSIVA</i></center>
+  <center><br><u>VOY A PONER MI NOMBRE: ALBA SAN JOSÉ</u></center>
+  <center><br><MARK> "MIAU" SUBRAYADO CHULO </MARK></center>
+  
+  
+  <div align="right">
+ PARA DAR FORMATO A LOS TEXTOS UTILIZO ESTAS ETIQUETAS:
+ <br><b>"MIAU" EN NEGRITA</b>
+ <br><i>"MIAU" EN CURSIVA</i>
+ <br><u>VOY A PONER MI NOMBRE: ALBA SAN JOSÉ</u>
+ <br><MARK> "MIAU" SUBRAYADO CHULO </MARK>
+ </div>
+ <p> # Las palomas
+
+Las palomas son aves muy conocidas que viven en diferentes lugares del mundo. Se pueden encontrar en ciudades
+, pueblos, parques, jardines, campos y zonas rurales. Son animales que se han adaptado muy bien a vivir cerca 
+de los seres humanos. Por eso, es habitual verlas caminando por las plazas, volando entre los edificios o bus
+cando alimento en parques y calles.Las palomas tienen un cuerpo cubierto de plumas y poseen dos alas que les 
+permiten volar. Sus patas son cortas y tienen dedos que les ayudan a caminar y sujetarse a diferentes superfi
+cies. Su pico es pequeño y les sirve para recoger y comer alimentos. Aunque existen muchas especies de paloma
+s, algunas de las más conocidas tienen plumas de color gris, blanco, negro o con diferentes tonos.
+Su alimentación está formada principalmente por semillas, granos, frutos y otros alimentos que pueden encontr
+ar en su entorno. En las ciudades, algunas palomas también comen restos de comida que encuentran en el suelo.
+
+ </main>
+ <p id="puntodos"> enlace interno </p>
+ <font color="PURPLE"><big><big><big>LISTAS </font></big></big></big>
+ <UL>Tipos de LISTA numeradas</UL>
+ 
+
+ <BR><UL><LI>
+ PRIMERA FILA sin viñeta (vendrá una viñetra por defecto> </LI>
+ <LI> NOS PONDRA OTRA SEGUNDA LISTA POR DEFECTO </LI></UL>
+ OTRA SEGUNDA LISTA
+ <ul> <li type="square">primera fila de esta nueva lista con cuadrado</li>
+  <li type="square">segunda fila de esta nueva lista con cuadrado</li>
+  <li type="square">tercera fila de esta nueva lista con cuadrado</li></ul>
+  
+  OTRA TERCERA LISTA
+ <ul> <li type="circle">primera fila de esta nueva lista con circulo</li>
+  <li type="circle">segunda fila de esta nueva lista con circulo</li>
+  <li type="circle">tercera fila de esta nueva lista con circulo</li></ul>
+  
+   OTRA CUARTA LISTA
+ <ul> <li type="DISC">primera fila de esta nueva lista con disco</li>
+  <li type="DISC">segunda fila de esta nueva lista con disco</li>
+  <li type="DISC">tercera fila de esta nueva lista con disco</li></ul>
+  
+  <ol type= "a"><!--aqui se colocaran por defecto en orden alfabetico-->
+   <li value="1"> etiqueta para que el texto pueda empezar el apartado 1</li>
+  <li>texto para el primer apartado de la lista</li>
+  <li>texto para el segundo apartado de la lista</li>
+  <li>texto para el tercer apartado de la lista</li>
+  <li>texto para el cuaarto apartado de la lista</li>
+  </OL>
+  
+  <ol type="1"><!--aqui se colocaran por defecto en orden numérico-->
+     <li value= "1"> etiqueta para que el texto pueda empezar el apartado </li>
+  <li>texto para el primer apartado de la lista</li>
+  <li>texto para el segundo apartado de la lista</li>
+  <li>texto para el tercer apartado de la lista</li>
+  <li>texto para el cuaarto apartado de la lista</li>
+  </OL>
+  
+  <ol type= "I"><!--aqui se colocaran por defecto en números romanos-->
+     <li value= "V"> etiqueta para que el texto pueda empezar el apartado V</li>
+  <li>texto para el primer apartado de la lista</li>
+  <li>texto para el segundo apartado de la lista</li>
+  <li>texto para el tercer apartado de la lista</li>
+  <li>texto para el cuaarto apartado de la lista</li>
+  </OL>
+ <center> <font color="purple"><big><big><big>TABLAS </font></big></big></big></center>
+  <center>
+    <table class= "tabla1">
+	<caption>Mi primera tabla en html sin bordes </caption>
+	   <tr>
+			<td> celda 1</td>
+			<td> celda 2</td>
+		</tr>
+		<tr>
+			<td> celda 3</td>
+			<td> celda 4</td>
+		</tr>
+		</table>
+		</center>
+		
+	<center> <table border= "1">
+	<caption>Mi primera tabla con bordes </caption>
+	   <tr>
+			<td> celda 1</td>
+			<td> celda 2</td>
+		</tr>
+		<tr>
+			<td> celda 3</td>
+			<td> celda 4</td>
+		</tr>
+		</table>
+		</center>
+		
+		
+	<center>	
+		<table border="1">
+			<tr>
+			<td colspan=3>celda combinando 3 columnas</td><!-- combina tres celdas de columnas distintas en una.-->
+		</tr>
+		<tr>
+			<td rowspan=2>celda combinando 2</td><!--combina dos celdas de filas distintas en una.-->
+				<td>celda normal</td>
+				<td>celda normal</td>
+		</tr>
+		<tr>
+			<td>celda normal</td>
+			<td>celda normal</td>
+		</tr>
+		</table>
+	</center>
+	<p class="vamosaensayar">vamos a ensayar ahora colocando una linea para separar contenidos</p>
+	<center> <BIG><BIG><B><I><U>IMÁGENES<BR></B></I></U></BIG></BIG></CENTER>
+	<center><img src= "etiqueta.png" alt= "mi etiqueta" border= "1" align= "top"
+	width= "400" height="40%"></img></center>
+	<br>
+<center> AHORA LE VAMOS A QUITAR EL BORDE Y VAMOS A COLOCAR LA IMAGEN A LA DERECHA,
+ VAMOS A ENSANCHAR LA IMAGEN Y DISMINUIR SU ALTURA</center>
+ <img src= "etiqueta.png" alt= "mi etiqueta" border= "0" align= "right"
+	width= "600" height="200"></img>
+
+<BR>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center> <BIG><BIG><B><I><U>ENLACES<BR></B></I></U></BIG></BIG></CENTER>
+	<a href= "https://www.google.es"> pulsa aqui para acceder a google </a>
+	<br>
+	<br>
+	<a href= "https://www.google.es" target="_blank"> pulsa aqui para acceder 
+	a google en una ventana nueva</a>
+	<br>
+	<a href= "htmlcincoycss.pdf"> descarga desde aquí el documento para elegir tema </a>
+	<br>
+	<a href= "https://seo.org/ave/paloma-bravia/">desde aquí, enlaza con otra página html</a>
+	<br>
+	<a href= "#puntodos"> desde aquí, vuelvo al enlace de LISTA</a>
+	<!--ESTO ES UN ENLACE INTERNO-->
+<center> <BIG><BIG><B><I><U>INSERTAR UNA CANCIÓN<BR></B></I></U></BIG></BIG></CENTER>
+		<center>
+		<br>
+		<audio src="cancion.mp3" controls> </audio> 
+		<br>
+		<audio src="canciona.mp3" controls> </audio>
+		<br>
+<center> <BIG><BIG><B><I><U>INSERTAR UN VÍDEO<BR></B></I></U></BIG></BIG></CENTER>
+<video src= "video.mp4" controls> </video>
+<iframe width="560" height="315"
+	src="https://www.youtube.com/embed/qA2egYS58Nc?si=aOb7QbnyxG7ZR6Qe" 
+	title="YouTube video player" 
+	frameborder="0" 
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+	</iframe>
+	<center> <BIG><BIG><B><I><U>INSERTAR UN MAPA<BR></B></I></U></BIG></BIG></CENTER>
+	<iframe src="https://www.google.com/maps/embed?pb=!4v1791287762474!6m8!1m7!1sCAoSF
+	0NJSE0wb2dLRUlDQWdJRDRxdjJMd1FF!2m2!1d13.99562948205904!2d121.3412404769347!3f339.
+	61970004992475!4f8.95224001865543!5f0.7820865974627469" 
+	width="600" 
+	height="450" 
+	style="border:0;" allowfullscreen="" 
+	loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</body>
+<br><br><br>
+<nav id="menuhorizontal">
+<ul>
+<li><a href= "htmlcincoycss.pdf">boton uno</a></li>
+<li>boton dos</li>
+<li>boton tres</li>
+</ul>
+</nav>
+
+<nav id="menuD">
+		<ul>
+			<li>Menú
+				<ul>
+				<li><a href= "htmlcincoycss.pdf" target="_blank">Botón 1 </a></li>
+				<li>Botón 2
+				<ul>
+					<li><a href="https://www.google.es" target="_blank">Botón 2.1 </a></li>
+					
+					<li><a href="https://historia.nationalgeographic.com.es/actualidad/si-palomas-fueron-nuestras-primeras-aliadas-hallazgo-cambia-historia-estas-aves_26111" target="_blank"> Botón 2.2 </a></li>
+					</ul>
+				</li>
+				<li><a href="https://poki.com/es/g/cat-pizza" target="_blank"> Botón 3</a></li>
+				</ul>
+				</li>
+				</ul>
+				</nav>
+		<br><br><br><br><br> 
+<footer>
+
+ADIÓS TIC TIC
+
+</footer>
+
+</html>
